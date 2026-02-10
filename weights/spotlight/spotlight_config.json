@@ -1,0 +1,10 @@
+{
+    "model": "MobileNetV3_Small",
+    "classes": [
+        "clean",
+        "spotlight"
+    ],
+    "best_acc": 99.71242331288343,
+    "img_size": 224,
+    "last_epoch_reached": 7
+}

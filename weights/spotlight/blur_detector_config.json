@@ -1,0 +1,13 @@
+{
+  "detector_type": "blur_laplacian",
+  "threshold": 100,
+  "levels": {
+    "muito_borrada": "< 50",
+    "borrada": "50-100",
+    "aceitavel": "100-400",
+    "boa": "> 400"
+  },
+  "method": "Laplacian Variance",
+  "requires_training": false,
+  "requires_gpu": false
+}
