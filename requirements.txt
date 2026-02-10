@@ -1,0 +1,20 @@
+# --- Core (IA e Visão Computacional) ---
+ultralytics>=8.0.0      # O framework YOLOv8
+torch>=2.0.0            # PyTorch (Backend de Deep Learning)
+torchvision>=0.15.0     # Utilitários de visão para PyTorch
+opencv-python>=4.8.0    # Processamento de Imagem (cv2)
+
+# --- Interface Web (Demo) ---
+gradio>=4.0.0           # Framework para criar o app.py
+
+# --- Manipulação de Dados e Imagens ---
+numpy>=1.24.0           # Cálculos matemáticos e arrays
+pandas>=2.0.0           # Para o script de organização do dataset (EDA)
+pillow>=10.0.0          # Manipulação de imagens (PIL)
+scipy>=1.10.0           # Cálculos científicos (ajuda na geometria)
+
+# --- Visualização e Utilitários ---
+matplotlib>=3.7.0       # Para gerar os gráficos do README e EDA
+seaborn>=0.12.0         # Deixa os gráficos do matplotlib mais bonitos
+tqdm>=4.65.0            # Barra de progresso (usada nos scripts de dataset)
+ipykernel               # Caso queira rodar os Notebooks (.ipynb) localmente no VS Code
